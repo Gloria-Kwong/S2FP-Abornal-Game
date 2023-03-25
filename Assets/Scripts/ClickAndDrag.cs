@@ -6,6 +6,7 @@ public class ClickAndDrag : MonoBehaviour
 {
     public GameObject selectedObject;
     Vector3 offset;
+
     void Update()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
